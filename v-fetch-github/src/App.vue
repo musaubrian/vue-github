@@ -1,13 +1,12 @@
 <script setup>
 import ViewJson from './components/ViewJson.vue';
-import UploadJson from './components/UploadJson.vue';
+
 
 </script>
 
 <template>
   <main>
     <ViewJson/>
-    <UploadJson/>
   </main>
 </template>
 
