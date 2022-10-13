@@ -1,40 +1,42 @@
 <template>
-    <div>
+  <div class="weather-container">
     <h1>My Weather App</h1>
     <button v-on:click="getWeatherData">Get Weather Data</button>
-    <div v-for="weatherData in weatherDataList" :key="weatherData.id" class="weather-data">
+    <div
+      v-for="weatherData in weatherDataList"
+      :key="weatherData.id"
+      class="weather-data"
+    >
       <div class="weather-stats">
         <div>
-          <span>{{weatherData.time}}</span>
+          <span>{{ weatherData.time }}</span>
         </div>
         <div>
-          <span class="location">{{weatherData.location}}</span>
+          <span class="location">{{ weatherData.location }}</span>
         </div>
       </div>
       <div class="weather-temp">
-        <span>{{weatherData.temp}}°</span>
+        <span>{{ weatherData.temp }}°</span>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-    export default {
-        data () {
-            return {
-                weatherDataList: []
-            };
-        },
-        methods: {
-            getWeatherData () {
-                fetch("https://musaubrian.github.io/host-js/data/weather.json")
-                .then(Response => Response.json())
-                .then(data => (this.weatherDataList = data));
-            }
-        }
-    }
-
-
+export default {
+  data() {
+    return {
+      weatherDataList: [],
+    };
+  },
+  methods: {
+    getWeatherData() {
+      fetch("https://musaubrian.github.io/host-js/data/weather.json")
+        .then((Response) => Response.json())
+        .then((data) => (this.weatherDataList = data));
+    },
+  },
+};
 </script>
 
 <style>
@@ -62,7 +64,10 @@
   font-size: 35px;
 }
 
-img {
-  width: 70px;
+button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 20px;
 }
 </style>
