@@ -1,29 +1,41 @@
-# v-fetch-github
+<h1 align="center">Welcome to v-fetch-github 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/\_musaubrian" target="_blank">
+    <img alt="Twitter: \_musaubrian" src="https://img.shields.io/twitter/follow/\_musaubrian.svg?style=social" />
+  </a>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite.
+> testing how to use github as a host for my json
 
-## Recommended IDE Setup
+### 🏠 [Homepage](poc-json.netlify.app/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### ✨ [Demo](poc-json.netlify.app/)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Install
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Usage
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Author
 
-```sh
-npm run build
-```
+👤 **MusauBrian**
+
+* Website: musaubrian.netlify.app
+* Twitter: [@\_musaubrian](https://twitter.com/\_musaubrian)
+* Github: [@musaubrian](https://github.com/musaubrian)
+* LinkedIn: [@ernest-musau](https://linkedin.com/in/ernest-musau)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
